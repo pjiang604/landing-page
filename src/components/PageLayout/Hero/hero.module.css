@@ -1,0 +1,37 @@
+.heroContainer {
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.heroContainer>* {
+    flex: 50%;
+}
+
+.heroImage {
+    height: 100%;
+    width: 100%;
+    background-color: var(--berry);
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+}
+
+.heroText {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    justify-content: center;
+    gap: 3em;
+}
+
+.textSubContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}

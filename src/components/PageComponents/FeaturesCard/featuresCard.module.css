@@ -1,0 +1,15 @@
+.featuresContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.featuresContainer h3{
+    flex: 1;
+}
+
+.featuresContainer p{
+    flex: 3;
+}

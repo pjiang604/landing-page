@@ -1,0 +1,25 @@
+.header{
+    height: 10%;
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.logoContainer{
+    height: 5em;
+    width: auto;
+}
+
+.linksContainer{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: var(--white);
+}
