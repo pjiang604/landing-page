@@ -1,15 +1,21 @@
-.featuresContainer{
+.featuresContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.featuresContainer h3{
+.featuresContainer h3 {
     flex: 1;
 }
 
-.featuresContainer p{
+.featuresContainer p {
     flex: 3;
+}
+
+@media only screen and (min-width: 850px) {
+
+    .featuresContainer {
+        flex-direction: row;
+    }
 }

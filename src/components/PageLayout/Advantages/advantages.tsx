@@ -3,9 +3,11 @@ import AdvantagesCard from '@/components/PageComponents/AdvantagesCard/advantage
 import styles from './advantages.module.css'
 import Headline from '@/components/PageComponents/Headline/headline'
 
+
 export default function Advantages() {
     return (
         <div className={``}>
+
             <Headline
                 headline="Advantages"
                 text="The blurb for advantages goes in here" />
@@ -14,8 +16,6 @@ export default function Advantages() {
                 <AdvantagesCard />
                 <AdvantagesCard />
             </div>
-
-
         </div>
     )
 }

@@ -1,17 +1,18 @@
 .bodyContainer {
     min-height: 50vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3em;
     padding: 3em 0;
 }
 
-.bodyContainer > *{
+.bodyContainer>* {
     flex: 50%;
 }
-.textContainer{
+
+.textContainer {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -21,15 +22,37 @@
 .textSubContainer {
     display: flex;
     flex-direction: column;
-
+text-align: center;
     justify-content: center;
+
 }
 
-.heroImage{
+.heroImage {
     display: flex;
     justify-content: center;
 }
 
-.image{
+.image {
     object-fit: contain;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 850px) {
+
+    .bodyContainer {
+        flex-direction: row;
+    }
+
+    .textSubContainer{
+        text-align: left;
+    }
+
+    .btnContainer{
+        justify-content: left;
+    }
 }

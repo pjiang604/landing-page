@@ -1,19 +1,22 @@
 import FeaturesCard from '@/components/PageComponents/FeaturesCard/featuresCard'
 import styles from './features.module.css'
 import Headline from '@/components/PageComponents/Headline/headline'
+import template from '../../../../public/images/template.png'
+import Image from 'next/image'
+
 
 export default function Features() {
     return (
         <div className={``}>
-          <Headline
-          headline='Features'
-          text='this is where the blurb goes'/>
+            <Headline
+                headline='Features'
+                text='this is where the blurb goes' />
             <div className={styles.bodyContainer}>
                 <div className={styles.heroImage}>
-                    <div className={styles.image}>
-                    Spline Animation Here
-                    </div>
 
+                    <Image
+                        src={template}
+                        alt='template' />
                 </div>
                 <div className={styles.textSubContainer}>
                     <FeaturesCard
@@ -27,7 +30,6 @@ export default function Features() {
                         featureDesc='description here' />
                 </div>
             </div>
-
 
         </div>
     )

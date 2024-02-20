@@ -1,6 +1,5 @@
-import { Button } from '@mui/material'
 import styles from './textInput.module.css'
-import useTheme from '@mui/material'
+
 import Image from 'next/image'
 import send from '../../../../public/images/send/send.png'
 
@@ -10,13 +9,12 @@ export default function TextInput() {
         <>
             <form className={styles.form}>
                 <div className={styles.inputContainer}>
-                    <label>Email</label>
-                    <input className={styles.input} type='text' id='email' name='email' required />
+                    <input className={styles.input} type='email' id='email' name='email' required placeholder='Email' />
                 </div>
                 <button className={styles.button}>
                     <Image
-                    src={send}
-                    alt='submit'/>
+                        src={send}
+                        alt='submit' />
                 </button>
             </form>
 

@@ -24,7 +24,10 @@ export default function CTA() {
                         <h1>Ready for it?</h1>
                         <h3>Begin your Canadian experience today.</h3>
                     </div>
-                    <GetStartedBtn/>
+                    <div className={styles.btnContainer}>
+                        <GetStartedBtn />
+                    </div>
+
                 </div>
             </div>
 

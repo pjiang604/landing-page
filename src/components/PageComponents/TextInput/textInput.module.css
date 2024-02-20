@@ -1,10 +1,10 @@
 .inputContainer {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 100%;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: row;
     gap: 1em;
@@ -19,11 +19,34 @@
     border-radius: 0.25em;
 }
 
-.button{
+.input:focus {
+    border: 0.25em solid var(--berry);
+    outline: none !important;
+}
+
+.button {
     aspect-ratio: 1/1;
     height: 100%;
     background-color: var(--berry);
     color: var(--white);
     padding: 0.5em;
     border-radius: 0.5em;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: var(--berry-light);
+    box-shadow: 0.15em 0.15em 0.25em var(--black);
+}
+
+@media only screen and (min-width: 450px) {
+    .inputContainer {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 825px) {
+    .inputContainer {
+        width: 33%;
+    }
 }

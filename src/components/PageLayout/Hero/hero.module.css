@@ -1,20 +1,14 @@
 .heroContainer {
     height: 75vh;
     display: flex;
-    flex-direction: row;
-
-}
-
-.heroContainer>* {
-    flex: 50%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 
 .heroImage {
-    height: 100%;
-    width: 100%;
-    background-color: var(--berry);
-    border-radius: 100%;
-    aspect-ratio: 1/1;
+display: flex;
+justify-content: center;
 }
 
 .heroText {
@@ -25,7 +19,6 @@
 .textContainer {
     display: flex;
     flex-direction: column;
-    padding-left: 15%;
     justify-content: center;
     gap: 3em;
 }
@@ -35,3 +28,19 @@
     flex-direction: column;
     gap: 0.5em;
 }
+
+
+@media only screen and (min-width: 850px) {
+
+.heroContainer{
+    flex-direction: row;
+}
+
+.heroContainer > *{
+flex: 50%;
+}
+
+.textContainer{
+    padding-left: 15%;
+}
+  }

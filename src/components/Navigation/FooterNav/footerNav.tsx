@@ -2,6 +2,7 @@ import Logo from '@/components/Logo/logo'
 import styles from './footerNav.module.css'
 import Image from 'next/image'
 import gitHub from '../../../../public/images/logo/gitHub.png'
+import Link from 'next/link'
 
 
 export default function FooterNav() {
@@ -10,11 +11,14 @@ export default function FooterNav() {
             <div className={styles.logoContainer}>
                 <Logo />
             </div>
-            <p>© Patricia jiang</p>
+            <p>© 2024 Patricia jiang</p>
+            <Link href="https://github.com/pjiang604/MDIA3109_FinalProject">
             <Image
                 src={gitHub}
                 alt='github logo'
                 className={styles.github}/>
+            </Link>
+
         </div>
     )
 }

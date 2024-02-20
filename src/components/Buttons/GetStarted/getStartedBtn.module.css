@@ -3,5 +3,12 @@
     color: var(--white);
     padding: 0.5em 1em;
     border-radius: 0.5em;
-    width: 10em;
+height: auto;
+    width: auto;
+    transition-duration: 0.5s;
+}
+
+.btnContainer:hover{
+    background-color: var(--berry-light);
+    box-shadow: 0.15em 0.15em 0.25em var(--black);
 }

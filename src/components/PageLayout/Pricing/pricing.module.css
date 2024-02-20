@@ -1,10 +1,16 @@
 .bodyContainer{
     min-height: 75vh;
-    height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
     padding: 2em 0;
+    gap: 2em;
     box-sizing: border-box;
+}
+
+@media only screen and (min-width: 850px) {
+
+    .bodyContainer {
+        flex-direction: row;
+    }
 }

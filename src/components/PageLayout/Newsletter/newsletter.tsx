@@ -9,7 +9,6 @@ export default function Newsletter() {
                 headline="Newsletter"
                 text="The blurb for Newsletter goes in here" />
             <div className={styles.bodyContainer}>
-
                 <TextInput />
             </div>
 

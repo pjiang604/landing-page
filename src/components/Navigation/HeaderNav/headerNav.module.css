@@ -23,3 +23,8 @@
     align-items: flex-end;
     color: var(--white);
 }
+
+.getStartedLink{
+    color: var(--berry);
+    font-weight: 700;
+}

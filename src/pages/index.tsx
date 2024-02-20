@@ -9,27 +9,44 @@ import Pricing from '@/components/PageLayout/Pricing/pricing'
 import CTA from '@/components/PageLayout/CTA/cta'
 import Newsletter from '@/components/PageLayout/Newsletter/newsletter'
 import FooterNav from '@/components/Navigation/FooterNav/footerNav'
+import ScrollAnimation from 'sgk-react-animation-scroll'
+import "animate.css/animate.compat.css"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const offset = 50
+  const duration = 2
+
   return (
-    <main className="">
+    <main className="flex flex-col gap-4`">
       <HeaderNav />
-      <div className={`h-full w-full p-pagePadding`}>
+      <div className={`h-full w-full p-pagePadding flex flex-col gap-12`}>
         <Hero />
-        <Features />
-        <Advantages />
+        <ScrollAnimation animateIn='bounceInUp' duration={duration} offset={offset} animateOnce={true}>
+          <Features />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='bounceInUp' duration={duration} offset={offset} animateOnce={true}>
+          <Advantages />
+        </ScrollAnimation>
       </div>
-      <div className={`h-full w-full`}>
-        <Reviews />
+      <div className={`h-full w-full `}>
+        <ScrollAnimation animateIn='bounceInUp' duration={duration} offset={offset} animateOnce={true}>
+          <Reviews />
+        </ScrollAnimation>
       </div>
-      <div className={`h-full w-full p-pagePadding`}>
-        <Pricing />
-        <CTA/>
-        <Newsletter/>
+      <div className={`h-full w-full p-pagePadding flex flex-col gap-12`}>
+        <ScrollAnimation animateIn='bounceInUp' duration={duration} offset={offset} animateOnce={true}>
+          <Pricing />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='bounceInUp' duration={duration} offset={offset} animateOnce={true}>
+          <CTA />
+          <Newsletter />
+        </ScrollAnimation>
       </div>
-      <FooterNav/>
+      <FooterNav />
     </main>
   )
 }

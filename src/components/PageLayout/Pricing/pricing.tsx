@@ -4,7 +4,7 @@ import Headline from '@/components/PageComponents/Headline/headline'
 
 export default function Pricing() {
     return (
-        <div className={``}>
+        <div className={`h-max`}>
             <Headline
                 headline="Pricing"
                 text="The blurb for pricing goes in here" />

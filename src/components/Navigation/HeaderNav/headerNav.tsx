@@ -2,6 +2,9 @@ import Logo from '@/components/Logo/logo'
 import styles from './headerNav.module.css'
 import Link from 'next/link'
 import GetStartedBtn from '@/components/Buttons/GetStarted/getStartedBtn'
+import { GhostNavbar } from "react-hamburger-menus";
+import "react-hamburger-menus/dist/style.css";
+
 
 export default function HeaderNav() {
     return (
@@ -10,9 +13,25 @@ export default function HeaderNav() {
                 <Logo />
             </div>
             <div className={styles.linksContainer}>
-                <Link href={'/'}><h4>Pricing</h4></Link>
-                <Link href={'/'}><h4>About</h4></Link>
-                <GetStartedBtn />
+                <GhostNavbar
+                    floatButtonX={5}
+                    floatButtonY={3}
+                    fontColor='var(--black)'
+                    styles={{
+                        navigationBackground: {
+                            backgroundColor: 'var(--white)'
+                        }
+                    }}
+                >
+                    <ul>
+                        <li><Link href={'/'}><h4>Pricing</h4></Link></li>
+
+                        <li><Link href={'/'}><h4>About</h4></Link></li>
+
+                        <li><Link href={'/'} className={styles.getStartedLink}>Get Started</Link></li>
+                    </ul>
+                </GhostNavbar>
+
             </div>
 
         </header>
