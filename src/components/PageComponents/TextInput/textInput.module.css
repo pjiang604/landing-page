@@ -1,0 +1,29 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.input {
+    border: 0.15em solid var(--berry);
+    padding: 0.15em 0.5em;
+    border-radius: 0.25em;
+}
+
+.button{
+    aspect-ratio: 1/1;
+    height: 100%;
+    background-color: var(--berry);
+    color: var(--white);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}

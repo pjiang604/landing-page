@@ -1,0 +1,19 @@
+.container {
+    height: 10%;
+    background-color: var(--grey);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logoContainer{
+    height: 5em;
+    width: auto;
+}
+
+.github{
+    object-fit: contain;
+}

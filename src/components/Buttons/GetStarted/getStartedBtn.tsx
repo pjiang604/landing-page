@@ -1,10 +1,12 @@
 import styles from './getStartedBtn.module.css'
 
 
-export default function GetStartedBtn() {
+export default function GetStartedBtn({
+    text = "Get Started"
+}: IGetStarted) {
     return (
         <button className={styles.btnContainer}>
-            <h4>Get Started</h4>
+            <h4>{text}</h4>
         </button>
     )
 }

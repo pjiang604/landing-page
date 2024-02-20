@@ -1,0 +1,10 @@
+.bodyContainer{
+    min-height: 75vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em 0;
+    box-sizing: border-box;
+}

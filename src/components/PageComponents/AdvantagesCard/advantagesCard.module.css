@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    background-color: var(--berry);
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}

@@ -5,15 +5,14 @@ import Headline from '@/components/PageComponents/Headline/headline'
 export default function Features() {
     return (
         <div className={``}>
-            <Headline
-                headline="Features"
-                text="The blurb for features goes in here" />
+          <Headline
+          headline='Features'
+          text='this is where the blurb goes'/>
             <div className={styles.bodyContainer}>
                 <div className={styles.heroImage}>
                     <div className={styles.image}>
                     Spline Animation Here
                     </div>
-
 
                 </div>
                 <div className={styles.textSubContainer}>
