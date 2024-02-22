@@ -26,10 +26,15 @@ interface IPricingCard {
     list5?: string;
     large: boolean;
     monthly: string;
+    splineUrl: string;
 }
 
 interface IGetStarted {
     text?: string
+}
+
+interface IAdvantagesCard{
+  splineUrl: string
 }
 
 declare module '@mui/material/styles' {

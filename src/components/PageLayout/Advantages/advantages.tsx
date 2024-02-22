@@ -12,9 +12,12 @@ export default function Advantages() {
                 headline="Advantages"
                 text="The blurb for advantages goes in here" />
             <div className={styles.bodyContainer}>
-                <AdvantagesCard />
-                <AdvantagesCard />
-                <AdvantagesCard />
+                <AdvantagesCard
+                splineUrl='https://prod.spline.design/Ir5zDMhmqhj-qSKB/scene.splinecode' />
+                <AdvantagesCard
+                splineUrl='https://prod.spline.design/DDS-Ds60SxFtDRJn/scene.splinecode' />
+                <AdvantagesCard
+                splineUrl='https://prod.spline.design/zarzY72QCp9dVifN/scene.splinecode' />
             </div>
         </div>
     )

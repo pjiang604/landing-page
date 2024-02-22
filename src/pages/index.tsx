@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const offset = 50
+  const offset = 25
   const duration = 2
 
   return (

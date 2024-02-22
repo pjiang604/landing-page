@@ -18,6 +18,7 @@ export default function Pricing() {
                     list3="Pre-curated art playlists"
                     large={false}
                     monthly="free"
+                    splineUrl="https://prod.spline.design/hc99Hw3sHmRBOfg0/scene.splinecode"
                 />
                 <PricingCard
                     tier="Pricing Tier"
@@ -29,6 +30,7 @@ export default function Pricing() {
                     list4="Exclusive art and music for members"
                     large={true}
                     monthly="paid"
+                    splineUrl="https://prod.spline.design/p5xrvGlH82mMJMwP/scene.splinecode"
                 />
                 <PricingCard
                     tier="Pricing Tier"
@@ -41,6 +43,7 @@ export default function Pricing() {
                     list5='Includes Spotify Premium membership'
                     large={false}
                     monthly="paid"
+                    splineUrl="https://prod.spline.design/u4CiW3Fh1z1uusAo/scene.splinecode"
                 />
             </div>
 

@@ -1,8 +1,7 @@
 import FeaturesCard from '@/components/PageComponents/FeaturesCard/featuresCard'
 import styles from './features.module.css'
 import Headline from '@/components/PageComponents/Headline/headline'
-import template from '../../../../public/images/template.png'
-import Image from 'next/image'
+import Spline from '@splinetool/react-spline'
 
 
 export default function Features() {
@@ -14,9 +13,7 @@ export default function Features() {
             <div className={styles.bodyContainer}>
                 <div className={styles.heroImage}>
 
-                    <Image
-                        src={template}
-                        alt='template' />
+                <Spline scene="https://prod.spline.design/QBtGQ9OoP0TiohBH/scene.splinecode" />
                 </div>
                 <div className={styles.textSubContainer}>
                     <FeaturesCard

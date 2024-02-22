@@ -1,12 +1,13 @@
 import styles from './advantagesCard.module.css'
+import Spline from '@splinetool/react-spline'
 
-export default function AdvantagesCard() {
+export default function AdvantagesCard({
+    splineUrl,
+}: IAdvantagesCard) {
     return (
         <div className={styles.container}>
             <div className={styles.imageContainer}>
-                <div className={styles.image}>
-                    image here
-                </div>
+            <Spline scene={`${splineUrl}`} />
 
             </div>
             <div className={styles.textContainer}>

@@ -1,7 +1,6 @@
 import GetStartedBtn from '@/components/Buttons/GetStarted/getStartedBtn'
 import styles from './hero.module.css'
-import Image from 'next/image'
-import placeholder from '../../../../public/images/template.png'
+import Spline from '@splinetool/react-spline'
 
 
 export default function Hero() {
@@ -20,10 +19,7 @@ export default function Hero() {
             </div>
 
             <div className={styles.heroImage}>
-                <Image
-                    src={placeholder}
-                    alt='placeholder'
-                />
+            <Spline scene="https://prod.spline.design/YgDXsXLowz0RAxsF/scene.splinecode" />
             </div>
 
         </div>
