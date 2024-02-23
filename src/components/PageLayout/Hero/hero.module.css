@@ -37,7 +37,6 @@
         flex-direction: row;
         align-items: center;
         height: 50vh;
-
     }
 
     .heroContainer>* {
@@ -50,4 +49,11 @@
     .heroImage{
         height: 100%;
     }
+}
+
+@media only screen and (min-width: 850px) {
+.heroContainer{
+    padding: 0 10%;
+}
+
 }
