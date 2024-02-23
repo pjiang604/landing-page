@@ -4,6 +4,7 @@
 Patricia Jiang
 
 ## Description
+Amplify is a responsive web-app that provides music and visual art streaming services to art enthusiasts. This landing page highlights the features, benefits, and pricing associated with this app for enthusiasts to learn about. 3D graphics were made using [Spline](https://spline.design/) software.
 
 ## Dependencies/Packages Installed
 - [npm i @pr0gramm/react-text-loop](https://www.npmjs.com/package/@pr0gramm/react-text-loop)
