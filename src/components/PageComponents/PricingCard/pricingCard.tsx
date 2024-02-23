@@ -35,7 +35,7 @@ export default function PricingCard({
                             <span>no credit card!</span>}
                     </div>
 
-                    {monthly ?
+                    {monthly === "paid" ?
                         <GetStartedBtn
                             text="Buy Now" />
                         :
@@ -67,7 +67,7 @@ export default function PricingCard({
                             :
                             <span>no credit card!</span>}
                     </div>
-                    {monthly ?
+                    {monthly === "paid" ?
                         <GetStartedBtn
                             text="Buy Now" />
                         :
