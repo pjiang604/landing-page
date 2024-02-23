@@ -1,11 +1,11 @@
 .bodyContainer {
-    min-height: 50vh;
+    /* min-height: 50vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3em;
-    padding: 3em 0;
+
 }
 
 .bodyContainer>* {
@@ -41,11 +41,16 @@ text-align: center;
     justify-content: center;
 }
 
+.heroImage > div > canvas{
+    min-height: 33vh;
+}
 
-@media only screen and (min-width: 850px) {
+
+@media only screen and (min-width: 450px) {
 
     .bodyContainer {
         flex-direction: row;
+
     }
 
     .textSubContainer{

@@ -40,6 +40,10 @@
     line-height: 2em;
 }
 
+.splineContainer{
+    height: 10em;
+}
+
 @media only screen and (min-width: 850px) {
 
 .container{

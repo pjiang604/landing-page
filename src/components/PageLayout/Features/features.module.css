@@ -3,11 +3,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 3em;
-    padding: 3em 0;
-}
-
-.bodyContainer>* {
-    flex: 50%;
 }
 
 .textSubContainer {
@@ -19,20 +14,33 @@
 
 .heroImage {
     height: 100%;
-    max-height: 50vh;
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
 
+.heroImage > div:first-of-type{
+    min-height: 33vh;
+}
 
 
-@media only screen and (min-width: 850px) {
+
+@media only screen and (min-width: 450px) {
 
     .bodyContainer {
         flex-direction: row;
     }
+
+    .textSubContainer{
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+    .heroImage{
+        width: 50%;
+    }
+
 
 
 }

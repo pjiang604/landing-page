@@ -3,15 +3,16 @@ import Spline from '@splinetool/react-spline'
 
 export default function AdvantagesCard({
     splineUrl,
+    text,
 }: IAdvantagesCard) {
     return (
         <div className={styles.container}>
             <div className={styles.imageContainer}>
-            <Spline scene={`${splineUrl}`} />
+                <Spline scene={`${splineUrl}`} />
 
             </div>
             <div className={styles.textContainer}>
-                <p>a little blurb here about the advantage that could go onto two lines or three lines</p>
+                <p>{text}</p>
             </div>
 
         </div>

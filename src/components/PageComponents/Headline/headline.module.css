@@ -1,0 +1,19 @@
+@media only screen and (min-width: 450px) {
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.width{
+    width: 70%;
+}
+
+}
+
+@media only screen and (min-width: 850px) {
+
+    .width{
+        width: 40%;
+    }
+}

@@ -1,6 +1,4 @@
 import styles from './pricingCard.module.css'
-import template from '../../../../public/images/template.png'
-import Image from 'next/image'
 import GetStartedBtn from '@/components/Buttons/GetStarted/getStartedBtn'
 import Spline from '@splinetool/react-spline'
 
@@ -25,7 +23,7 @@ export default function PricingCard({
                         <h2>{tier}</h2>
                         <p>{phrase}</p>
                     </div>
-                    <div>
+                    <div className={styles.splineContainer}>
                         <Spline scene={`${splineUrl}`} />
                     </div>
 
@@ -59,7 +57,7 @@ export default function PricingCard({
                         <h3>{tier}</h3>
                         <p>{phrase}</p>
                     </div>
-                    <div>
+                    <div className={styles.splineContainer}>
                         <Spline scene={`${splineUrl}`} />
                     </div>
                     <div className={styles.price}>

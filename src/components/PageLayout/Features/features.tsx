@@ -8,23 +8,22 @@ export default function Features() {
     return (
         <div className={``}>
             <Headline
-                headline='Features'
-                text='this is where the blurb goes' />
+                headline='Built with Canadians in Mind'
+                text='Amplify offers unique and exclusive features to get you started on your Canadian art journey!' />
             <div className={styles.bodyContainer}>
                 <div className={styles.heroImage}>
-
-                <Spline scene="https://prod.spline.design/QBtGQ9OoP0TiohBH/scene.splinecode" />
+                    <Spline scene="https://prod.spline.design/QBtGQ9OoP0TiohBH/scene.splinecode" />
                 </div>
                 <div className={styles.textSubContainer}>
                     <FeaturesCard
-                        featureName='Feature #1'
-                        featureDesc='description here' />
+                        featureName='All Canadian Music and Art'
+                        featureDesc='Amplify excusively features Canadian artists. Find the best of the best in music and art right from your back door!' />
                     <FeaturesCard
-                        featureName='Feature #2'
-                        featureDesc='description here' />
+                        featureName='Search for What You Want'
+                        featureDesc="Have specific tastes? Search for your favourite Candian artists or let Amplify show you something new based on what you're feeling!" />
                     <FeaturesCard
-                        featureName='Feature #3'
-                        featureDesc='description here' />
+                        featureName='Listen on Demand'
+                        featureDesc='Connect with your Spotify account and start listening instantly!' />
                 </div>
             </div>
 

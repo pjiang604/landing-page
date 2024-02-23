@@ -10,7 +10,7 @@ export default function Pricing() {
                 text="The blurb for pricing goes in here" />
             <div className={styles.bodyContainer}>
                 <PricingCard
-                    tier="Pricing Tier"
+                    tier="Eighth Note"
                     phrase="for casual listeners"
                     price="FREE"
                     list1="Access to Vancouver Art"
@@ -21,8 +21,8 @@ export default function Pricing() {
                     splineUrl="https://prod.spline.design/hc99Hw3sHmRBOfg0/scene.splinecode"
                 />
                 <PricingCard
-                    tier="Pricing Tier"
-                    phrase="for casual listeners"
+                    tier="Duplet"
+                    phrase="for the enthusiasts "
                     price="$4.99"
                     list1="Access to art in British Columbia"
                     list2="Monthly custom music playlists"
@@ -33,12 +33,12 @@ export default function Pricing() {
                     splineUrl="https://prod.spline.design/p5xrvGlH82mMJMwP/scene.splinecode"
                 />
                 <PricingCard
-                    tier="Pricing Tier"
-                    phrase="for casual listeners"
+                    tier="Triplet"
+                    phrase="for the collectors"
                     price="$22.99"
                     list1="Access to art in Canada"
-                    list2="Monthly custom music playlists"
-                    list3="Monthly custom art playlists"
+                    list2="Weekly custom music playlists"
+                    list3="Weekly custom art playlists"
                     list4="Exclusive art and music for members"
                     list5='Includes Spotify Premium membership'
                     large={false}

@@ -5,9 +5,12 @@ export default function Headline({
     text
 }: IHeadline){
     return(
-        <div className={`w-full text-center`}>
+        <div className={styles.container}>
+        <div className={`${styles.width} w-full text-center mb-8`}>
             <h2>{headline}</h2>
             <p>{text}</p>
         </div>
+        </div>
+
     )
 }

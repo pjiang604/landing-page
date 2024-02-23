@@ -7,8 +7,9 @@
 }
 
 .heroImage {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 .heroText {
@@ -30,17 +31,23 @@ justify-content: center;
 }
 
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 450px) {
 
-.heroContainer{
-    flex-direction: row;
-}
+    .heroContainer {
+        flex-direction: row;
+        align-items: center;
+        height: 50vh;
 
-.heroContainer > *{
-flex: 50%;
-}
+    }
 
-.textContainer{
-    padding-left: 15%;
+    .heroContainer>* {
+        flex: 50%;
+    }
+
+    .textContainer {
+        padding-left: 15%;
+    }
+    .heroImage{
+        height: 100%;
+    }
 }
-  }

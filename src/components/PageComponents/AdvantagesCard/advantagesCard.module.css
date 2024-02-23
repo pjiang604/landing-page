@@ -9,9 +9,23 @@
     justify-content: center;
 }
 
-/* .image{
-    background-color: var(--berry);
-    width: 50%;
-    aspect-ratio: 1/1;
-    border-radius: 100%;
-} */
+@media only screen and (min-width: 450px) {
+.container{
+    min-height: 25vh;
+    justify-content: space-between;
+
+}
+
+.container > *{
+    flex: 50%;
+}
+
+.bodyContainer{
+    align-items: flex-start;
+}
+
+.container > *{
+    flex: 50%;
+}
+
+          }

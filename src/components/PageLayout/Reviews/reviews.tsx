@@ -30,8 +30,8 @@ export default function Reviews() {
     return (
         <div className={``}>
             <Headline
-                headline="Reviews"
-                text="The blurb for Reviews goes in here" />
+                headline="Approved by Canadians"
+                text="Don't just take it from us! Here's what other Canadians just like you have to say about Amplify." />
             <div className={styles.bodyContainer}>
                 <div className={styles.carousel}>
                     <Carousel

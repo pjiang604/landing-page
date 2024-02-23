@@ -6,9 +6,6 @@ import Spline from '@splinetool/react-spline'
 export default function CTA() {
     return (
         <div className={``}>
-            <Headline
-                headline='CTA2'
-                text='this is where the cta blurb goes' />
             <div className={styles.bodyContainer}>
                 <div className={styles.heroImage}>
                 <Spline scene="https://prod.spline.design/fFcao2rD-HUCYrz8/scene.splinecode" />

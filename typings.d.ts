@@ -34,7 +34,8 @@ interface IGetStarted {
 }
 
 interface IAdvantagesCard{
-  splineUrl: string
+  splineUrl: string;
+  text: string;
 }
 
 declare module '@mui/material/styles' {
